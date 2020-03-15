@@ -1,0 +1,7 @@
+.class{
+    color:black;
+    .sub-class{
+        border-top: 1px solid blue;
+        &.modifier{border-bottom:1px;}
+    }
+}

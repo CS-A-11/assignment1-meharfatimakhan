@@ -1,0 +1,267 @@
+@import 'partials/mixins/mixin';
+
+$p-color: white;
+$event-background-color: #1d913c;
+$heading1-size: 50px;
+$paragraph-size: 40px;
+$b-radius:12px;
+$heading3-size:20px;
+
+
+body, html {
+  height: 100%;
+  margin: 0;
+  text-align: center;
+}
+.container{
+  @include lineBreak(20px);
+}
+.navbar{
+  @extend .container;
+}
+.row{
+  @include lineBreak(20px);;
+}
+
+.container-fluid{
+  width: 100%;
+  height:100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+h3{
+  font-size:$heading3-size;
+}
+
+h1{
+  font-size: $heading1-size;
+}
+
+p{
+  font-size: 15px;
+  color: $p-color;
+}
+
+.sec{
+  background-color: $event-background-color;
+  border-radius: 10px;
+  padding: 20px; 
+  p {
+    font-size: 25px;     
+  }
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: $p-color;
+  & .search-container {
+    float: center;
+
+    & button {
+      float: right;
+      border: none;
+      cursor: pointer;
+    }
+    & .btnPhone{
+      display: none;
+    }
+
+    &:hover {
+      background: $p-color;
+    }
+  }
+
+  & input[type=text] {
+    border-radius: $b-radius;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    max-width: 390px;
+    font-size: 17px;
+    border: none;
+  }
+}
+  
+img {
+  display: block;
+  max-width:500px;
+  max-height:500px;
+  width: auto;
+  height: auto;
+  color: $p-color;
+  filter: brightness(0) invert(1);
+  }
+  .logo{
+    @extend img;
+    width: 230px;
+    height: 40px;
+}
+
+.main-img {
+  width:500;
+  height:500;
+  @include makeResponsive(100%);
+}
+
+.headsec{
+  background-image: url('../images/sw-hero-home.png'); 
+  height: 150%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  color:$p-color;
+  background-size: cover;
+}
+
+
+// $white:white;
+// $black:black;
+// $red:red;
+// $primary:blue;
+// $secondary:grey;
+
+//     $colors: (
+//     // 'key' : $value
+//     'white': $white,
+//     'black': $black,
+//     'red': $red,
+//     'primary': $primary,
+//     'secondary': $secondary
+// );
+
+
+// @each $color, $entry in $colors{
+//     // .text-white {colour´:white}
+//     .container-#{$color}
+//     {
+//         color: $entry;
+
+//     }
+// }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  .topnav {
+    overflow: hidden;
+    background-color: $p-color;
+    & .search-container {
+      float: center;
+  
+      & button {
+        float: right;
+        border: none;
+        cursor: pointer;
+      }
+      & .btnPhone{
+        display: none;
+      }
+  
+      &:hover {
+        background: $p-color;
+      }
+    }
+  
+    & input[type=text] {
+      border-radius: $b-radius;
+      padding: 0px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      max-width: 215px;
+      font-size: 17px;
+      border: none;
+    }
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .topnav {
+    overflow: hidden;
+    background-color: $p-color;
+    & .search-container {
+      float: center;
+  
+      & button {
+        float: right;
+        border: none;
+        cursor: pointer;
+      }
+      & .btnPhone{
+        display: none;
+      }
+  
+  
+      &:hover {
+        background: $p-color;
+      }
+    }
+  
+    & input[type=text] {
+      border-radius: $b-radius;
+      padding: 0px;
+      margin-top: 8px;
+      margin-bottom: 8px;
+      max-width: 315px;
+      font-size: 17px;
+      border: none;
+    }
+  }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 375px) and (max-width: 767px) {
+  .topnav {
+    overflow: hidden;
+    background-color: $p-color;
+    & .search-container {
+      float: center;
+  
+      & button {
+        display:none;
+      }
+      & .btnPhone{
+        float: center;
+        margin:auto;
+        display:block;
+        margin-top:20px;
+        text-align: center;
+        padding-top:20px;
+      }
+  
+      &:hover {
+        background: $p-color;
+      }
+    }
+  
+    & input[type=text] {
+      border-radius: $b-radius;
+      float:center;
+      font-size: 16px;
+    }
+  }
+
+  .form{
+    display: inline-block;
+    text-align: left;   
+  
+  }
+  .main-img {
+    @include makeResponsive(100%);
+    
+  }
+}

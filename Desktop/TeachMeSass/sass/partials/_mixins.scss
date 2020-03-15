@@ -1,0 +1,9 @@
+@mixin translateX($val){
+    -webkit-transform:translateX($val);
+    -moz-transform:translateX($val);
+}
+
+@mixin animate-time ($time: 320ms){
+    -webkit-transition:$time ease;
+    -moz-transition:$time ease-in-out;
+}

@@ -1,0 +1,117 @@
+html, body {
+  margin: 0px;
+  padding: 0;
+}
+
+p {
+  padding: 919px;
+}
+
+.half {
+  height: 593.3333333333px;
+}
+
+.first-class, .second-class {
+  color: black;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.second-class {
+  border-color: white;
+}
+
+.third-class {
+  color: blue;
+}
+
+.border-blue {
+  border-color: blue;
+  border-width: 2px;
+}
+
+.border-red {
+  border-collapse: red;
+  border-width: 2px;
+}
+
+a {
+  font-family: sans-serif;
+  color: black;
+}
+a:hover, a:focus, a:visited {
+  color: blue;
+}
+a.link-class {
+  color: green;
+}
+a.link-class:hover, a.link-class:focus, a.link-class:visited {
+  color: white;
+}
+
+.translateX {
+  -webkit-transform: translateX(15px);
+  -moz-transform: translateX(15px);
+}
+
+.transform {
+  -webkit-transform: translateX(19px);
+  -moz-transform: translateX(19px);
+}
+
+.box1 {
+  -webkit-transition: 320ms ease;
+  -moz-transition: 320ms ease-in-out;
+}
+
+.box2 {
+  -webkit-transition: 920ms ease;
+  -moz-transition: 920ms ease-in-out;
+}
+
+.box3 {
+  -webkit-transition: 890ms ease;
+  -moz-transition: 890ms ease-in-out;
+}
+
+.text-white {
+  color: white;
+}
+
+.background-white {
+  background-color: white;
+}
+
+.text-black {
+  color: black;
+}
+
+.background-black {
+  background-color: black;
+}
+
+.text-red {
+  color: red;
+}
+
+.background-red {
+  background-color: red;
+}
+
+.text-primary {
+  color: grey;
+}
+
+.background-primary {
+  background-color: grey;
+}
+
+.text-secondary {
+  color: #333;
+}
+
+.background-secondary {
+  background-color: #333;
+}
+
+/*# sourceMappingURL=style.css.map */

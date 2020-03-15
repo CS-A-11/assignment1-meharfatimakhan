@@ -1,0 +1,38 @@
+I am currently enrolled in final year, 7th semester, at FAST-NUCES pursuing Bachelor of Science in Computer Science.
+
+Academic Learning Outcomes:
+- Thinking outside the box
+- Effective management skills
+- Ability to meet all demands on a project in the stipulated amount of time
+- Can operate on all levels: staying connected to details
+- Delivering quality results
+- Strong work ethic
+- Effective communication skills - written & oral
+
+Technologies used: Java, C++, Javascript, Python, Node.js, AngularJS, AJAX, SQL, MongoDB, poster designing in Canva
+
+Major Academic Projects: 
+- Cinema Ticket Booking Website (C#, MYSQL and JavaScript)
+- Game Development in JAVA (Used MYSQL as database)
+- Designed replica of Instagram in Node.JS
+---> Used MVC structure
+---> Used MongoDB, an object document mapper
+---> Worked full-stack (on the front-end (used pug as template engine) and back-end) 
+
+Field of Interest:
+- Graphic Designing
+- Web Development
+- Web Content Writing
+
+Subjects I would like to explore:
+- Computer Vision
+- Android Development
+- Virtual Reality
+
+Interests:
+- Travel Enthusiast
+- Animal lover
+- Potter-more
+- Like solving puzzles and playing Sudoku
+- Like reading novels
+- Love to read manga and fan fictions on my favorite series and movies
