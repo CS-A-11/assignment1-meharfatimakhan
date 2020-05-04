@@ -1,0 +1,413 @@
+[1mdiff --git a/FYP_Work/.gitignore b/FYP_Work/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 603b140..0000000[m
+[1m--- a/FYP_Work/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1,14 +0,0 @@[m
+[31m-*.iml[m
+[31m-.gradle[m
+[31m-/local.properties[m
+[31m-/.idea/caches[m
+[31m-/.idea/libraries[m
+[31m-/.idea/modules.xml[m
+[31m-/.idea/workspace.xml[m
+[31m-/.idea/navEditor.xml[m
+[31m-/.idea/assetWizardSettings.xml[m
+[31m-.DS_Store[m
+[31m-/build[m
+[31m-/captures[m
+[31m-.externalNativeBuild[m
+[31m-.cxx[m
+[1mdiff --git a/FYP_Work/.idea/codeStyles/Project.xml b/FYP_Work/.idea/codeStyles/Project.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 681f41a..0000000[m
+[1m--- a/FYP_Work/.idea/codeStyles/Project.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,116 +0,0 @@[m
+[31m-<component name="ProjectCodeStyleConfiguration">[m
+[31m-  <code_scheme name="Project" version="173">[m
+[31m-    <codeStyleSettings language="XML">[m
+[31m-      <indentOptions>[m
+[31m-        <option name="CONTINUATION_INDENT_SIZE" value="4" />[m
+[31m-      </indentOptions>[m
+[31m-      <arrangement>[m
+[31m-        <rules>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>xmlns:android</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>^$</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>xmlns:.*</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>^$</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-              <order>BY_NAME</order>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>.*:id</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>.*:name</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>name</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>^$</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>style</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>^$</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>.*</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>^$</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-              <order>BY_NAME</order>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>.*</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>http://schemas.android.com/apk/res/android</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-              <order>ANDROID_ATTRIBUTE_ORDER</order>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-          <section>[m
+[31m-            <rule>[m
+[31m-              <match>[m
+[31m-                <AND>[m
+[31m-                  <NAME>.*</NAME>[m
+[31m-                  <XML_ATTRIBUTE />[m
+[31m-                  <XML_NAMESPACE>.*</XML_NAMESPACE>[m
+[31m-                </AND>[m
+[31m-              </match>[m
+[31m-              <order>BY_NAME</order>[m
+[31m-            </rule>[m
+[31m-          </section>[m
+[31m-        </rules>[m
+[31m-      </arrangement>[m
+[31m-    </codeStyleSettings>[m
+[31m-  </code_scheme>[m
+[31m-</component>[m
+\ No newline at end of file[m
+[1mdiff --git a/FYP_Work/.idea/gradle.xml b/FYP_Work/.idea/gradle.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 440480e..0000000[m
+[1m--- a/FYP_Work/.idea/gradle.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,19 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="GradleSettings">[m
+[31m-    <option name="linkedExternalProjectsSettings">[m
+[31m-      <GradleProjectSettings>[m
+[31m-        <option name="testRunner" value="PLATFORM" />[m
+[31m-        <option name="distributionType" value="DEFAULT_WRAPPED" />[m
+[31m-        <option name="externalProjectPath" value="$PROJECT_DIR$" />[m
+[31m-        <option name="modules">[m
+[31m-          <set>[m
+[31m-            <option value="$PROJECT_DIR$" />[m
+[31m-            <option value="$PROJECT_DIR$/app" />[m
+[31m-          </set>[m
+[31m-        </option>[m
+[31m-        <option name="resolveModulePerSourceSet" value="false" />[m
+[31m-      </GradleProjectSettings>[m
+[31m-    </option>[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/FYP_Work/.idea/misc.xml b/FYP_Work/.idea/misc.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 37a7509..0000000[m
+[1m--- a/FYP_Work/.idea/misc.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,9 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" project-jdk-name="1.8" project-jdk-type="JavaSDK">[m
+[31m-    <output url="file://$PROJECT_DIR$/build/classes" />[m
+[31m-  </component>[m
+[31m-  <component name="ProjectType">[m
+[31m-    <option name="id" value="Android" />[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/FYP_Work/.idea/runConfigurations.xml b/FYP_Work/.idea/runConfigurations.xml[m
+[1mdeleted file mode 100644[m
+[1mindex 7f68460..0000000[m
+[1m--- a/FYP_Work/.idea/runConfigurations.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,12 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="UTF-8"?>[m
+[31m-<project version="4">[m
+[31m-  <component name="RunConfigurationProducerService">[m
+[31m-    <option name="ignoredProducers">[m
+[31m-      <set>[m
+[31m-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.AllInPackageGradleConfigurationProducer" />[m
+[31m-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestClassGradleConfigurationProducer" />[m
+[31m-        <option value="org.jetbrains.plugins.gradle.execution.test.runner.TestMethodGradleConfigurationProducer" />[m
+[31m-      </set>[m
+[31m-    </option>[m
+[31m-  </component>[m
+[31m-</project>[m
+\ No newline at end of file[m
+[1mdiff --git a/FYP_Work/app/.gitignore b/FYP_Work/app/.gitignore[m
+[1mdeleted file mode 100644[m
+[1mindex 796b96d..0000000[m
+[1m--- a/FYP_Work/app/.gitignore[m
+[1m+++ /dev/null[m
+[36m@@ -1 +0,0 @@[m
+[31m-/build[m
+[1mdiff --git a/FYP_Work/app/build.gradle b/FYP_Work/app/build.gradle[m
+[1mdeleted file mode 100644[m
+[1mindex a874f9a..0000000[m
+[1m--- a/FYP_Work/app/build.gradle[m
+[1m+++ /dev/null[m
+[36m@@ -1,35 +0,0 @@[m
+[31m-apply plugin: 'com.android.application'[m
+[31m-[m
+[31m-android {[m
+[31m-    compileSdkVersion 29[m
+[31m-    buildToolsVersion "29.0.3"[m
+[31m-[m
+[31m-    defaultConfig {[m
+[31m-        applicationId "com.example.fyp_work"[m
+[31m-        minSdkVersion 22[m
+[31m-        targetSdkVersion 29[m
+[31m-        versionCode 1[m
+[31m-        versionName "1.0"[m
+[31m-[m
+[31m-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"[m
+[31m-    }[m
+[31m-[m
+[31m-    buildTypes {[m
+[31m-        release {[m
+[31m-            minifyEnabled false[m
+[31m-            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'[m
+[31m-        }[m
+[31m-    }[m
+[31m-[m
+[31m-}[m
+[31m-[m
+[31m-dependencies {[m
+[31m-    implementation fileTree(dir: 'libs', include: ['*.jar'])[m
+[31m-[m
+[31m-    implementation 'androidx.appcompat:appcompat:1.0.2'[m
+[31m-    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'[m
+[31m-    testImplementation 'junit:junit:4.12'[m
+[31m-    androidTestImplementation 'androidx.test.ext:junit:1.1.1'[m
+[31m-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'[m
+[31m-    implementation 'androidx.cardview:cardview:1.0.0'[m
+[31m-}[m
+[1mdiff --git a/FYP_Work/app/proguard-rules.pro b/FYP_Work/app/proguard-rules.pro[m
+[1mdeleted file mode 100644[m
+[1mindex f1b4245..0000000[m
+[1m--- a/FYP_Work/app/proguard-rules.pro[m
+[1m+++ /dev/null[m
+[36m@@ -1,21 +0,0 @@[m
+[31m-# Add project specific ProGuard rules here.[m
+[31m-# You can control the set of applied configuration files using the[m
+[31m-# proguardFiles setting in build.gradle.[m
+[31m-#[m
+[31m-# For more details, see[m
+[31m-#   http://developer.android.com/guide/developing/tools/proguard.html[m
+[31m-[m
+[31m-# If your project uses WebView with JS, uncomment the following[m
+[31m-# and specify the fully qualified class name to the JavaScript interface[m
+[31m-# class:[m
+[31m-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {[m
+[31m-#   public *;[m
+[31m-#}[m
+[31m-[m
+[31m-# Uncomment this to preserve the line number information for[m
+[31m-# debugging stack traces.[m
+[31m-#-keepattributes SourceFile,LineNumberTable[m
+[31m-[m
+[31m-# If you keep the line number information, uncomment this to[m
+[31m-# hide the original source file name.[m
+[31m-#-renamesourcefileattribute SourceFile[m
+[1mdiff --git a/FYP_Work/app/src/androidTest/java/com/example/fyp_work/ExampleInstrumentedTest.java b/FYP_Work/app/src/androidTest/java/com/example/fyp_work/ExampleInstrumentedTest.java[m
+[1mdeleted file mode 100644[m
+[1mindex 035f3c5..0000000[m
+[1m--- a/FYP_Work/app/src/androidTest/java/com/example/fyp_work/ExampleInstrumentedTest.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,27 +0,0 @@[m
+[31m-package com.example.fyp_work;[m
+[31m-[m
+[31m-import android.content.Context;[m
+[31m-[m
+[31m-import androidx.test.platform.app.InstrumentationRegistry;[m
+[31m-import androidx.test.ext.junit.runners.AndroidJUnit4;[m
+[31m-[m
+[31m-import org.junit.Test;[m
+[31m-import org.junit.runner.RunWith;[m
+[31m-[m
+[31m-import static org.junit.Assert.*;[m
+[31m-[m
+[31m-/**[m
+[31m- * Instrumented test, which will execute on an Android device.[m
+[31m- *[m
+[31m- * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>[m
+[31m- */[m
+[31m-@RunWith(AndroidJUnit4.class)[m
+[31m-public class ExampleInstrumentedTest {[m
+[31m-    @Test[m
+[31m-    public void useAppContext() {[m
+[31m-        // Context of the app under test.[m
+[31m-        Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();[m
+[31m-[m
+[31m-        assertEquals("com.example.fyp_work", appContext.getPackageName());[m
+[31m-    }[m
+[31m-}[m
+[1mdiff --git a/FYP_Work/app/src/main/AndroidManifest.xml b/FYP_Work/app/src/main/AndroidManifest.xml[m
+[1mdeleted file mode 100644[m
+[1mindex d8e325b..0000000[m
+[1m--- a/FYP_Work/app/src/main/AndroidManifest.xml[m
+[1m+++ /dev/null[m
+[36m@@ -1,25 +0,0 @@[m
+[31m-<?xml version="1.0" encoding="utf-8"?>[m
+[31m-<manifest xmlns:android="http://schemas.android.com/apk/res/android"[m
+[31m-    package="com.example.fyp_work">[m
+[31m-[m
+[31m-    <application[m
+[31m-        android:allowBackup="true"[m
+[31m-        android:icon="@mipmap/ic_launcher"[m
+[31m-        android:label="@string/app_name"[m
+[31m-        android:roundIcon="@mipmap/ic_launcher_round"[m
+[31m-        android:supportsRtl="true"[m
+[31m-        android:theme="@style/AppTheme">[m
+[31m-        <activity android:name=".splashscreen">[m
+[31m-[m
+[31m-            <intent-filter>[m
+[31m-                <action android:name="android.intent.action.MAIN" />[m
+[31m-[m
+[31m-                <category android:name="android.intent.category.LAUNCHER" />[m
+[31m-            </intent-filter>[m
+[31m-        </activity>[m
+[31m-        <activity android:name=".MainActivity">[m
+[31m-[m
+[31m-        </activity>[m
+[31m-    </application>[m
+[31m-[m
+[31m-</manifest>[m
+\ No newline at end of file[m
+[1mdiff --git a/FYP_Work/app/src/main/java/com/example/fyp_work/MainActivity.java b/FYP_Work/app/src/main/java/com/example/fyp_work/MainActivity.java[m
+[1mdeleted file mode 100644[m
+[1mindex 585cc0b..0000000[m
+[1m--- a/FYP_Work/app/src/main/java/com/example/fyp_work/MainActivity.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,52 +0,0 @@[m
+[31m-package com.example.fyp_work;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+[31m-import android.content.Intent;[m
+[31m-import android.net.Uri;[m
+[31m-import android.os.Bundle;[m
+[31m-import android.provider.MediaStore;[m
+[31m-import android.view.View;[m
+[31m-import android.view.Window;[m
+[31m-import android.widget.Button;[m
+[31m-import android.widget.ImageView;[m
+[31m-[m
+[31m-public class MainActivity extends AppCompatActivity {[m
+[31m-[m
+[31m-[m
+[31m-    ImageView img;[m
+[31m-    Button btn;[m
+[31m-    private static final int PICK_IMAGE=100;[m
+[31m-    Uri imageUir;[m
+[31m-    @Override[m
+[31m-    protected void onCreate(Bundle savedInstanceState) {[m
+[31m-        super.onCreate(savedInstanceState);[m
+[31m-        getWindow().requestFeature(Window.FEATURE_ACTION_BAR);[m
+[31m-        getSupportActionBar().hide();[m
+[31m-        setContentView(R.layout.activity_main);[m
+[31m-        img=(ImageView)findViewById(R.id.image_upload);[m
+[31m-        btn=(Button)findViewById(R.id.button_upload);[m
+[31m-[m
+[31m-        btn.setOnClickListener(new View.OnClickListener() {[m
+[31m-            @Override[m
+[31m-            public void onClick(View v) {[m
+[31m-                openGallery();[m
+[31m-            }[m
+[31m-        });[m
+[31m-    }[m
+[31m-    private void openGallery()[m
+[31m-    {[m
+[31m-        Intent gallery=new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);[m
+[31m-        startActivityForResult(gallery,PICK_IMAGE);[m
+[31m-    }[m
+[31m-    @Override[m
+[31m-    protected void onActivityResult(int requestcode,int resultcode, Intent data)[m
+[31m-    {[m
+[31m-        super.onActivityResult(requestcode,resultcode,data);[m
+[31m-        if(resultcode==RESULT_OK &&  requestcode==PICK_IMAGE)[m
+[31m-        {[m
+[31m-            imageUir=data.getData();[m
+[31m-            img.setImageURI(imageUir);[m
+[31m-        }[m
+[31m-    }[m
+[31m-}[m
+[1mdiff --git a/FYP_Work/app/src/main/java/com/example/fyp_work/splashscreen.java b/FYP_Work/app/src/main/java/com/example/fyp_work/splashscreen.java[m
+[1mdeleted file mode 100644[m
+[1mindex f93dfe7..0000000[m
+[1m--- a/FYP_Work/app/src/main/java/com/example/fyp_work/splashscreen.java[m
+[1m+++ /dev/null[m
+[36m@@ -1,32 +0,0 @@[m
+[31m-package com.example.fyp_work;[m
+[31m-[m
+[31m-import androidx.appcompat.app.AppCompatActivity;[m
+[31m-[m
+

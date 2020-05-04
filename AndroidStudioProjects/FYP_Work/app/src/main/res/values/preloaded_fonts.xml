@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/assistant_extralight</item>
+        <item>@font/assistant_light</item>
+        <item>@font/josefin_sans_light</item>
+        <item>@font/josefin_sans_thin</item>
+        <item>@font/josefin_slab_thin</item>
+        <item>@font/julius_sans_one</item>
+        <item>@font/lato_thin</item>
+        <item>@font/mallanna</item>
+        <item>@font/megrim</item>
+        <item>@font/nunito_extralight</item>
+    </array>
+</resources>
