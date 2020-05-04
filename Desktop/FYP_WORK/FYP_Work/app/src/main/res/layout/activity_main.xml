@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:id="@+id/image_upload"
+        android:layout_width="300dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_heading"
+
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:srcCompat="@drawable/upload_meme"
+         />
+
+
+    <Button
+        android:id="@+id/button_upload"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/button_shape"
+        android:ellipsize="none"
+        android:fontFamily="@font/nunito_extralight"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Upload Meme"
+        android:textColor="#E3D023D6"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_upload" />
+
+    <ImageView
+        android:id="@+id/text_heading"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintHorizontal_bias="0.5"
+        android:fontFamily="@font/mallanna"
+        android:foregroundTint="#FFFFFF"
+        android:textColor="#120E0E"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_transparent" />
+
+
+    <Button
+        android:id="@+id/button_humor"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_shape"
+        android:ellipsize="none"
+        android:fontFamily="@font/nunito_extralight"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Humor"
+        android:textColor="#E3D023D6"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_sentiment"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/josefin_sans_light"
+        android:text="Add Meme Text"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/text_meme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_upload"
+        app:layout_constraintVertical_bias="0.9" />
+
+    <EditText
+        android:id="@+id/text_meme"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#F30B9E"
+        android:ems="10"
+        android:fontFamily="@font/nunito_extralight"
+        android:hint="add meme text"
+        android:inputType="textPersonName"
+        android:textColor="#E3D023D6"
+        android:textColorHighlight="#cf1717"
+        android:textColorLink="#E3D023D6"
+        android:textCursorDrawable="@drawable/cursor_color"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button_humor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_upload" />
+
+
+    <Button
+        android:id="@+id/button_sentiment"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="145dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_shape"
+        android:ellipsize="none"
+        android:fontFamily="@font/nunito_extralight"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:text="Sentiment"
+        android:textColor="#E3D023D6"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/button_humor" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
