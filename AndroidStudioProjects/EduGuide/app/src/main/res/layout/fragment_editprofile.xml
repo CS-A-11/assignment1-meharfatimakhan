@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.editprofile.EditProfileFragment">
+
+    <RelativeLayout
+        android:id="@+id/editView"
+        android:layout_width="match_parent"
+        android:layout_height="728dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/upperLayout"
+            android:layout_width="match_parent"
+            android:layout_height="198dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/photoButtons"
+                android:layout_width="243dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/removePhoto"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:layout_width="149dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="60dp"
+                    android:background="@drawable/button_shape"
+                    android:ellipsize="none"
+                    android:text="REMOVE"
+                    android:textColor="#ff42bdb1"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/addPhoto"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="149dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="52dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_shape"
+                    android:ellipsize="none"
+                    android:text="ADD PHOTO"
+                    android:textColor="#ff42bdb1"
+                    android:textSize="12sp"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/displayPicture"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginRight="30dp"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_vertical" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lowerLayout"
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="200dp"
+                android:text="Name"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:textSize="14sp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+            <TextView
+                android:id="@+id/univ"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Select University"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/universityName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="1dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:id="@+id/dept"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Select Department"
+                android:textStyle="bold" />
+
+            <Spinner
+                android:id="@+id/departmentName"
+                android:elevation="1dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:textSize="14sp"
+                android:layout_marginRight="30dp" />
+            <TextView
+                android:id="@+id/rollNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Roll Number"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/rollNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:textSize="14sp"
+                android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+                android:ems="10"
+                android:hint="Roll Number"
+                android:inputType="textCapCharacters" />
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Email Address"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/emailID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:textSize="14sp"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textEmailAddress" />
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="25dp"
+                android:text="Phone Number"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:textSize="14sp"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone" />
+
+            <Button
+                android:id="@+id/saveButton"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginBottom="20dp"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:background="@drawable/button_shape"
+                android:ellipsize="none"
+                android:text="SAVE"
+                android:textColor="#ff42bdb1"
+                android:textSize="12sp"
+                android:visibility="visible" />
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.upload.UploadFragment">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/passwordLayout">
+        <TextView
+            android:id="@+id/doc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="40dp"
+            android:text="Document Name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/docName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textSize="14sp"
+            android:ems="10"
+            android:hint="Document Name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/course"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:text="Course Name"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/courseName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:textSize="14sp"
+            android:ems="10"
+            android:hint="Course Name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="25dp"
+            android:text="Select Document Type"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/documentType"
+            android:elevation="1dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:layout_marginRight="30dp" />
+        <Button
+            android:id="@+id/uploadButton"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_shape"
+            android:ellipsize="none"
+            android:text="Upload Document"
+            android:textColor="#ff42bdb1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:textSize="12sp"
+            android:visibility="visible" />
+        <Button
+            android:id="@+id/postButton"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="20dp"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:background="@drawable/button_shape"
+            android:ellipsize="none"
+            android:text="POST"
+            android:textColor="#ff42bdb1"
+            android:textSize="12sp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+</ScrollView>

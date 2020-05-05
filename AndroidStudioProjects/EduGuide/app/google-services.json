@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "673003338015",
+    "firebase_url": "https://eduguide-30659.firebaseio.com",
+    "project_id": "eduguide-30659",
+    "storage_bucket": "eduguide-30659.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:673003338015:android:a9b6a92b9b9bf47ea9d82a",
+        "android_client_info": {
+          "package_name": "com.example.eduguide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "673003338015-bbnj8j21qvp6f40pt83h2qs95fpetlau.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.eduguide",
+            "certificate_hash": "744b315ca7437c8ee6af3a299725df4d6f42e8d4"
+          }
+        },
+        {
+          "client_id": "673003338015-74mo4cvmbj9r3ebltqm2bjtosp4730pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxJIkbCkv-e2mzoWkY7TJxPrVfbs-zK8Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "673003338015-74mo4cvmbj9r3ebltqm2bjtosp4730pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
